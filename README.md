@@ -36,4 +36,15 @@ It uses **Spring Boot, JPA, MySQL, and Lombok**.
 ---
 
 ## 📂 Project Structure
+QuizApp/
+├── src/main/java/com/QuizApp/
+│ ├── controller/ # REST Controllers
+│ ├── model/ # Entity and DTO classes
+│ ├── repository/ # JPA Repositories
+│ ├── service/ # Business logic
+│ └── QuizDemoApplication.java
+├── src/main/resources/
+│ └── application.properties
+├── pom.xml
+└── README.md
 
